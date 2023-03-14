@@ -1,0 +1,106 @@
+
+@media (max-width: 375px) {
+    body {
+      font-size: 16px;
+      background-color: hsl(36, 100%, 99%);
+      margin-left: 40px;
+    }
+  }
+  @media (min-width: 1440px) {
+    body {
+      font-size: 20px;
+    }
+   
+  }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 100px;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+button{
+    background-color:  hsl(5, 85%, 63%);
+    color: white;
+    height: 30px;
+    width: 150px;
+    margin: 20px;
+    
+    
+}
+h2{
+    color: burlywood;
+}
+.new{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%); 
+}
+.lastpart{
+    display: flex;
+    flex-direction: row;
+   
+}
+img{
+    width: 80%;
+    height: 180px;
+}
+.logo{
+    width: 40px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+
+}
+.retro{
+    width: 60px;
+    height: 60px;
+}
+.laptops{
+    width: 60px;
+    height: 60px;  
+}
+.gaming{
+    width: 60px;
+    height: 60px;
+}
+
+.one{
+    display: grid;
+   grid-template-rows: auto auto;
+   
+  
+}
+.two{
+    display: grid;
+   grid-template-rows: auto auto;
+
+}
+.three{
+    display: grid;
+   grid-template-rows: auto auto;
+
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+     
+}
+.whole{
+
+}
